@@ -15,9 +15,6 @@ class ZombiesController < ApplicationController
   def show
     @zombie = Zombie.find(params[:id])
 
-
-
-
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @zombie }
