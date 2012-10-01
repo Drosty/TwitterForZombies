@@ -10,8 +10,6 @@ class ZombiesController < ApplicationController
     end
   end
 
-
-
   # GET /zombies/1
   # GET /zombies/1.json
   def show
