@@ -45,6 +45,15 @@ div {
   display: table;
 }
 
+.dummy {
+  size: 16px;
+  color: red;
+}
+
+.another-dummy {
+  border: 1px solid purple;
+}
+
 #error_explanation {
   width: 450px;
   border: 2px solid red;
